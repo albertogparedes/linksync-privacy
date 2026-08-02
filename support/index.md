@@ -1,6 +1,6 @@
 # LinkSync Support
 
-**Last updated:** May 26, 2026
+**Last updated:** August 2, 2026
 
 Need help with LinkSync? You're in the right place.
 
@@ -39,7 +39,7 @@ No. LinkSync uses public lookup endpoints to find matching tracks. You don't nee
 
 ### Does LinkSync collect my data?
 
-No. LinkSync does not create accounts, does not collect personal information, and does not track usage. See our [Privacy Policy](https://albertogparedes.github.io/linksync-privacy/) for full details.
+The free app does not: it creates no account, collects no personal information, and never tracks usage. The optional **Premium** subscription is the only part that stores data — when you sign in with Apple, it keeps a private history of the links people send you, tied to your own account and visible only to you. You can delete your account and all of that data anytime from **Settings → Account → Delete account**. See our [Privacy Policy](https://albertogparedes.github.io/linksync-privacy/) for full details.
 
 ### What platforms does LinkSync support?
 
@@ -47,7 +47,7 @@ LinkSync is currently available on iOS. Android support is not currently planned
 
 ### Is LinkSync free?
 
-Yes. LinkSync is free, contains no ads, and offers no in-app purchases.
+Yes — converting links is free forever, with no ads. LinkSync also offers an optional **Premium** subscription that adds a private, synced history of the links people send you. Premium is entirely optional; you never need it to convert links. You can manage or cancel a subscription anytime in your App Store or Google Play account settings.
 
 ## Reporting a bug
 
