@@ -1,12 +1,12 @@
 # Terms of Use for LinkSync
 
-**Last Updated:** August 2, 2026
+**Last Updated:** October 3, 2026
 
 These Terms of Use ("Terms") govern your use of the LinkSync mobile application ("LinkSync," "the app"), developed by Alberto Paredes ("we," "us"). By using LinkSync you agree to these Terms. If you do not agree, do not use the app.
 
 ## The service
 
-LinkSync converts music share links between Spotify and Apple Music. The core app is free and runs on your device. LinkSync also offers an optional **Premium subscription** that adds a private, synced history of the links people send you, tied to an account you create by signing in with Apple.
+LinkSync converts music share links between Spotify and Apple Music. The core app is free and runs on your device. LinkSync also offers an optional **Premium subscription** that adds a private, synced history of the links people send you, tied to an account you create by signing in with Apple. Premium also lets you create an optional profile and connect with friends who use LinkSync.
 
 ## Acceptable use
 
@@ -14,11 +14,29 @@ You agree to use LinkSync only for lawful purposes and not to:
 
 - Use it to infringe anyone's rights or violate any law;
 - Interfere with, disrupt, or attempt to gain unauthorized access to the app or its backend services;
-- Reverse engineer, resell, or commercially exploit the app except as permitted by law.
+- Reverse engineer, resell, or commercially exploit the app except as permitted by law;
+- Harass, threaten, impersonate, or spam other users, or create accounts to get around a block or removal.
 
 ## Accounts
 
-Premium requires signing in with Apple. You are responsible for maintaining access to the Apple ID you use. You may delete your account and all associated data at any time from **Settings → Account → Delete account** in the app.
+Premium requires signing in with Apple. You are responsible for maintaining access to the Apple ID you use. You may delete your account and all associated data at any time from **Profile → Account → Delete account** in the app.
+
+## Profiles, friends, and community rules
+
+Premium lets you choose a username, display name, and bio, and connect with other LinkSync users as friends. Anything you put in your profile is content you provide, and you are responsible for it.
+
+**There is no tolerance for objectionable content or abusive users.** Before using friends, you must agree to these community rules. You may not post or use:
+
+- Harassment, bullying, threats, or hate speech;
+- Sexual, violent, or graphic content in your username, display name, or bio;
+- A username or profile that impersonates another person, artist, or brand;
+- Spam, scams, advertising, or mass friend requests.
+
+**Reporting and blocking.** You can report or block any user from their profile. We review every report within 24 hours. When content breaks these rules we remove it, and we remove (eject) the users who posted it from LinkSync. Blocking someone stops them from finding you, seeing your profile, or sending you requests.
+
+**Our rights.** We may remove or edit profile content, reclaim usernames, and suspend or terminate accounts that break these Terms — without prior notice where needed to protect other users. Content filters in the app help prevent objectionable language but are not perfect; reports are how the community tells us about anything they miss.
+
+**Licence to your profile content.** You keep ownership of what you post. You give us a limited, non-exclusive licence to store it and show it to other users as your sharing settings allow, only to operate LinkSync.
 
 ## Subscriptions, billing, and cancellation
 

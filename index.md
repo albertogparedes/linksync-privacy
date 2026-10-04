@@ -2,13 +2,15 @@
 
 **Effective Date:** August 2, 2026
 
-**Last Updated:** August 2, 2026
+**Last Updated:** October 3, 2026
 
 ## In short
 
 LinkSync converts music share links between Spotify and Apple Music. The core app runs entirely on your device and requires no account.
 
 LinkSync also offers an **optional Premium subscription** that adds a private, synced history of the links people send you. Premium requires signing in with Apple and stores your history in your own account so it can sync across your devices. If you never sign in, LinkSync collects nothing about you — exactly as it always has.
+
+Premium members can also choose to create a profile and add friends. Your profile is private by default: you decide what friends can see, and your link history and the names you give your senders are never shown to anyone else.
 
 This policy covers both.
 
@@ -36,13 +38,28 @@ When you sign in with Apple and use Premium, we create an account for you and st
 - **Sender names you enter.** When you tag a converted link with the name of the person who sent it, we store that name (a label you type — we do **not** read your device's contacts or address book).
 - **Conversion records.** For links you convert while signed in, we store the music link, the source and destination service, a search term derived from the link, the time, and whether the sender was confirmed by you or auto-attributed.
 - **Subscription status.** To unlock Premium we record whether you hold an active subscription. The purchase itself is processed by Apple (or Google); we do not receive or store your payment card or billing details.
+- **Profile you choose to create.** Your username, display name, bio, your sharing settings, and the date you agreed to the community rules. All of these are optional until you use friends.
+- **Friends and blocks.** Friend requests you send and receive, who you are friends with and since when, and the people you have blocked.
+- **Reports.** If you report someone, we store the reason, any details you write, and a copy of that person's username, display name, and bio as they were at that moment. If someone reports you, the same copy of your profile is stored.
+
+### What other users can see
+
+Your profile is private by default. Only what you choose to share is shown, and only to the people described here:
+
+- **Your username** can be found by any signed-in LinkSync user who searches for it — that is how friends find you. A username is optional; without one, nobody can find you.
+- **Your display name** is shown to people who find you only if you turn on the "Photo, name & bio" sharing setting.
+- **Your bio and stats** (how many links you've logged and how many senders you have) are shown only to your friends, and only if you turn on those sharing settings.
+- **Never shown to anyone else:** your conversion history, the music links you convert, and the names you give the people who send you links. A sender name you type is a private label and is never shown to other users — not even to your friends.
+- **Blocks and reports are private.** Someone you block is not told. Someone you report is not told who reported them.
+
+To keep LinkSync safe, we review reported profiles and may remove content or accounts that break our [Terms of Use](https://albertogparedes.github.io/linksync-privacy/terms/).
 
 ### Where it is stored and who processes it
 
-Your Premium data is stored in a database and authentication service operated on our behalf by **Supabase, Inc.** as our data processor. Your subscription entitlement is managed through **RevenueCat, Inc.** Both act on our instructions under data-processing agreements.
+Your Premium data is stored in a database and authentication service operated on our behalf by **Supabase, Inc.** as our data processor. Your subscription entitlement is managed through **RevenueCat, Inc.** When someone files a report, a notification email containing the report (the reason, any details, and the copy of the reported profile) is sent to us through **Resend, Inc.**, an email delivery service. Each acts on our instructions under a data-processing agreement.
 
 - **In transit:** all traffic is encrypted over HTTPS.
-- **At rest:** the database is encrypted, and access is protected by row-level security rules so that your rows are readable and writable **only** by your own authenticated account. No other user can access your data.
+- **At rest:** the database is encrypted, and access is protected by security rules so that your private data — your conversion history and sender names — is readable and writable **only** by your own authenticated account. Other users can see only the profile details described in "What other users can see" above.
 
 ### What we still do not do
 
@@ -71,12 +88,16 @@ When you tap the paste button inside LinkSync, the app reads the current content
 
 **RevenueCat (Premium only).** Subscription entitlements are managed by RevenueCat, Inc. See [RevenueCat's privacy policy](https://www.revenuecat.com/privacy).
 
+**Resend (reports only).** When a user files a report, the notification email to us is delivered by Resend, Inc. It contains the report and the reported profile copy, and is sent only to us. See [Resend's privacy policy](https://resend.com/legal/privacy-policy).
+
 **What your IP address reveals.** As with any app that makes internet requests, the services above receive your device's public IP address, which is standard internet infrastructure. How they use it is described in their own privacy policies.
 
 ## Data retention and deletion
 
 - **Free app:** preferences live only on your device and are removed when you delete the app or clear its data.
-- **Premium:** your account data is kept until you delete it. You can permanently delete your account and **all** associated data at any time from within the app: **Settings → Account → Delete account**. This removes your account and every conversion record and sender name tied to it. You can also email us at linksync.app@proton.me to request deletion.
+- **Premium:** your account data is kept until you delete it. You can permanently delete your account and **all** associated data at any time from within the app: **Profile → Account → Delete account**. This removes your account, profile, friendships, blocks, and every conversion record and sender name tied to it. You can also email us at linksync.app@proton.me to request deletion.
+- **Reports:** a report is kept as a safety record even after either account is deleted. The link to the deleted account is removed, but the report and the profile copy it contains are kept for up to 12 months, then deleted.
+- **Backups:** deleted data may remain in encrypted backups for up to 90 days before those backups are overwritten.
 
 ## International transfers
 
@@ -91,10 +112,10 @@ LinkSync is not directed to children under 13 (or the equivalent minimum age in 
 Because Premium means we now hold data about you when you're signed in, you have rights over it:
 
 - **Access and portability** — ask us for a copy of your Premium data.
-- **Correction** — sender names and tags are editable in the app; contact us for anything else.
-- **Deletion** — delete your account in-app (**Settings → Account → Delete account**), or ask us to.
+- **Correction** — your profile, sharing settings, sender names, and tags are editable in the app; contact us for anything else.
+- **Deletion** — delete your account in-app (**Profile → Account → Delete account**), or ask us to.
 
-**European Union / United Kingdom / EEA (GDPR).** Our legal basis for processing Premium data is performance of the service you request (your subscription and history features). You may access, correct, delete, restrict, or object to processing, and lodge a complaint with your local supervisory authority. Contact us at linksync.app@proton.me.
+**European Union / United Kingdom / EEA (GDPR).** Our legal basis for processing Premium data is performance of the service you request (your subscription, history, profile, and friends features). We process reports and blocks on the basis of our legitimate interest in keeping LinkSync safe for its users. You may access, correct, delete, restrict, or object to processing, and lodge a complaint with your local supervisory authority. Contact us at linksync.app@proton.me.
 
 **California (CCPA/CPRA).** We do not sell or share your personal information, and we do not use it for cross-context behavioral advertising. You may request access to or deletion of your information. Contact us at linksync.app@proton.me.
 

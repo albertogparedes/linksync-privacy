@@ -1,6 +1,6 @@
 # LinkSync Support
 
-**Last updated:** August 2, 2026
+**Last updated:** October 3, 2026
 
 Need help with LinkSync? You're in the right place.
 
@@ -39,7 +39,17 @@ No. LinkSync uses public lookup endpoints to find matching tracks. You don't nee
 
 ### Does LinkSync collect my data?
 
-The free app does not: it creates no account, collects no personal information, and never tracks usage. The optional **Premium** subscription is the only part that stores data — when you sign in with Apple, it keeps a private history of the links people send you, tied to your own account and visible only to you. You can delete your account and all of that data anytime from **Settings → Account → Delete account**. See our [Privacy Policy](https://albertogparedes.github.io/linksync-privacy/) for full details.
+The free app does not: it creates no account, collects no personal information, and never tracks usage. The optional **Premium** subscription is the only part that stores data — when you sign in with Apple, it keeps a private history of the links people send you, tied to your own account and visible only to you. If you create a profile, friends see only what you choose to share. You can delete your account and all of that data anytime from **Profile → Account → Delete account**. See our [Privacy Policy](https://albertogparedes.github.io/linksync-privacy/) for full details.
+
+### Who can see my profile?
+
+Your profile is private by default. Other LinkSync users can find you only by searching for your @username (the first few letters are enough), and only if you've chosen one. Your display name is shown only if you turn on "Photo, name & bio," and your bio and stats are shown only to friends if you turn those on. Your link history and the names you give your senders are never shown to anyone. Change these anytime under **Profile → Edit profile → Share with friends**.
+
+### How do I report or block someone?
+
+Open their profile and tap **Report** or **Block**. Reports are private — the person isn't told who reported them — and we review every report within 24 hours. Blocking stops them from finding you, seeing your profile, or sending you requests, and they aren't told. You can unblock people under **Profile → Blocked users**.
+
+If someone is harassing you or you see something that breaks our [community rules](https://albertogparedes.github.io/linksync-privacy/terms/), you can also email **linksync.app@proton.me**.
 
 ### What platforms does LinkSync support?
 
