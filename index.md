@@ -2,7 +2,7 @@
 
 **Effective Date:** August 2, 2026
 
-**Last Updated:** October 3, 2026
+**Last Updated:** October 5, 2026
 
 ## In short
 
@@ -41,6 +41,8 @@ When you sign in with Apple and use Premium, we create an account for you and st
 - **Profile you choose to create.** Your username, display name, bio, your sharing settings, and the date you agreed to the community rules. All of these are optional until you use friends.
 - **Friends and blocks.** Friend requests you send and receive, who you are friends with and since when, and the people you have blocked.
 - **Reports.** If you report someone, we store the reason, any details you write, and a copy of that person's username, display name, and bio as they were at that moment. If someone reports you, the same copy of your profile is stored.
+- **Notifications.** When someone sends you a friend request or accepts yours, we store a notification record (who it is from, what kind it is, when it was created, and whether you have seen it) so the app can show it to you.
+- **Push notification token (only if you allow notifications).** If you turn on notifications, your iPhone gives LinkSync a device token from Apple, and we store it with your account so we can send you push notifications. We also store your notification settings (which kinds you want). If you never allow notifications, no token is stored.
 
 ### What other users can see
 
@@ -51,6 +53,7 @@ Your profile is private by default. Only what you choose to share is shown, and 
 - **Your bio and stats** (how many links you've logged and how many senders you have) are shown only to your friends, and only if you turn on those sharing settings.
 - **Never shown to anyone else:** your conversion history, the music links you convert, and the names you give the people who send you links. A sender name you type is a private label and is never shown to other users — not even to your friends.
 - **Blocks and reports are private.** Someone you block is not told. Someone you report is not told who reported them.
+- **Notifications show your username.** When you send someone a friend request or accept theirs, they are notified, and the notification includes your username (for example, "@yourname sent you a friend request"). A push notification can appear on their lock screen. Notifications between you and someone you have blocked are deleted.
 
 To keep LinkSync safe, we review reported profiles and may remove content or accounts that break our [Terms of Use](https://albertogparedes.github.io/linksync-privacy/terms/).
 
@@ -69,6 +72,7 @@ Even with Premium, LinkSync does **not**:
 - Use third-party analytics, telemetry, or cross-app tracking of any kind
 - Access your contacts, calendar, photos, microphone, camera, or location
 - Sell or rent your data to anyone
+- Send marketing or promotional push notifications — notifications are only about friend activity, and you can turn each kind off in **Settings → Notifications**
 
 ## Sign in with Apple
 
@@ -88,6 +92,8 @@ When you tap the paste button inside LinkSync, the app reads the current content
 
 **RevenueCat (Premium only).** Subscription entitlements are managed by RevenueCat, Inc. See [RevenueCat's privacy policy](https://www.revenuecat.com/privacy).
 
+**Apple Push Notification service (only if you allow notifications).** Push notifications are delivered to your iPhone by Apple. To send one, we give Apple your device token and the notification's text (which includes the other person's username). Apple's handling is governed by [Apple's privacy policy](https://www.apple.com/legal/privacy/).
+
 **Resend (reports only).** When a user files a report, the notification email to us is delivered by Resend, Inc. It contains the report and the reported profile copy, and is sent only to us. See [Resend's privacy policy](https://resend.com/legal/privacy-policy).
 
 **What your IP address reveals.** As with any app that makes internet requests, the services above receive your device's public IP address, which is standard internet infrastructure. How they use it is described in their own privacy policies.
@@ -95,8 +101,9 @@ When you tap the paste button inside LinkSync, the app reads the current content
 ## Data retention and deletion
 
 - **Free app:** preferences live only on your device and are removed when you delete the app or clear its data.
-- **Premium:** your account data is kept until you delete it. You can permanently delete your account and **all** associated data at any time from within the app: **Profile → Account → Delete account**. This removes your account, profile, friendships, blocks, and every conversion record and sender name tied to it. You can also email us at linksync.app@proton.me to request deletion.
+- **Premium:** your account data is kept until you delete it. You can permanently delete your account and **all** associated data at any time from within the app: **Profile → Account → Delete account**. This removes your account, profile, friendships, blocks, notifications, push tokens, and every conversion record and sender name tied to it. You can also email us at linksync.app@proton.me to request deletion.
 - **Reports:** a report is kept as a safety record even after either account is deleted. The link to the deleted account is removed, but the report and the profile copy it contains are kept for up to 12 months, then deleted.
+- **Push tokens:** removed from your account when you sign out, when you delete your account, or when Apple tells us the token no longer works (for example, after you delete the app). Turning notifications off in iOS Settings stops delivery immediately.
 - **Backups:** deleted data may remain in encrypted backups for up to 90 days before those backups are overwritten.
 
 ## International transfers

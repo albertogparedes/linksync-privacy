@@ -1,6 +1,6 @@
 # LinkSync Support
 
-**Last updated:** October 3, 2026
+**Last updated:** October 5, 2026
 
 Need help with LinkSync? You're in the right place.
 
@@ -50,6 +50,10 @@ Your profile is private by default. Other LinkSync users can find you only by se
 Open their profile and tap **Report** or **Block**. Reports are private — the person isn't told who reported them — and we review every report within 24 hours. Blocking stops them from finding you, seeing your profile, or sending you requests, and they aren't told. You can unblock people under **Profile → Blocked users**.
 
 If someone is harassing you or you see something that breaks our [community rules](https://albertogparedes.github.io/linksync-privacy/terms/), you can also email **linksync.app@proton.me**.
+
+### How do notifications work?
+
+Premium can notify you when someone sends you a friend request or accepts yours. Turn them on in **Settings → Notifications**, and choose which kinds you want there. LinkSync never sends ads or promotional notifications. If you said no to the iPhone prompt earlier, turn them on in the iPhone **Settings** app → **LinkSync** → **Notifications**. Signing out stops notifications on that device.
 
 ### What platforms does LinkSync support?
 
